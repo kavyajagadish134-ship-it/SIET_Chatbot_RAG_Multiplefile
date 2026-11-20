@@ -55,7 +55,7 @@ def build_vectors(chunks, model_name="all-MiniLM-L6-v2"):
 
 
 # Load multiple PDFs
-def load_base(pdf_path="college_docs"):
+def load_base(pdf_path="collage_docs"):
     pdf_folder = Path(__file__).resolve().parent / pdf_path
 
     if not pdf_folder.exists():
